@@ -1,0 +1,103 @@
+/* controls the background image */
+.loginBG {
+    height: 1080px;
+    width: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* for the login box */
+.loginMainDiv {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px none;
+    box-shadow: 3px 3px 10px 10px rgba(255, 255, 255, 0.055);
+    height: 575px;
+    width: 550px;
+}
+
+/* for the text be4 the inpfields */
+.label {
+    position: relative;
+    color: white;
+    margin-left: 23%;
+    margin-right: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* for the username field */
+.inputField1 {
+    height: 30px;
+    margin-top: 20%;
+    border-radius: 5px;
+    border-color: black;
+    border: none;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}
+/* for the password field */
+.inputField2 {
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: black;
+    border: none;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}
+/* contains the login and signup button */
+.bottomDiv {
+    position: absolute;
+    left: 30%;
+}
+
+/* for the text btw login and signup button */
+.paraDiv {
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    margin-left: 60px;
+    font-size: small;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* for the sign up */
+.signUpButton {
+    margin-left: 100px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+    height: 30px;
+    width: 70px;
+    transition: 0.2s all;
+}
+/* for when the button is clicked */
+.signUpButton:active {
+    background-color: rgb(71,71,71);
+    transform: scale(0.85);
+}
+
+/* for login button */
+.loginButton {
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+    height: 30px;
+    width: 70px;
+    transition: 0.2 all;
+}
+/* when login button is clicked */
+.loginButton:active {
+    background-color: rgb(71, 71, 71);
+    transform: scale(0.85);
+}

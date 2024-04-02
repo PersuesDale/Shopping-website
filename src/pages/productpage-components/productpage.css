@@ -1,0 +1,133 @@
+/* css for the main div if logged in already */
+.productMainDiv {
+    position: static;
+    background-image: url('./image.png');
+    background-color: white;
+    background-size: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* css for the main div if not logged in yet */
+.productMainDiv2{
+    position: static;
+    background-image: url('./image.png');
+    background-color: white;
+    background-size: 100%;
+    height: 1080px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 250px;
+}
+
+/*button to redirect to login page if not logged in yet */
+.loginButtonAlt {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+    height: 30px;
+    width: 70px;
+    transition: 0.2 all;
+}
+.loginButtonAlt:active {
+    background-color: rgb(71, 71, 71);
+    transform: scale(0.85);
+}
+
+.productSubDiv
+/* div containing the data array */
+.aaFkDiv {
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-top: 7px;
+    margin-left: 90px;
+    height: 290px;
+    width: 1250px;
+    border: 5px solid black;
+}
+
+/* color for the error msg if not logged in */
+.errorHead {
+    color: white;
+}
+
+/* css for the time when the data array loads */
+.loadingDiv{
+    position: static;
+    background-image: url('./image.png');
+    background-color: white;
+    background-size: 100%;
+    height: 1080px;
+    width: auto;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 50px;
+}
+
+/* data in the array related stuff start*/
+/* css for "category" in the data array */
+.productCategory {
+    margin-left: 220px;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* css for "rating" in the data array */
+.productRating {
+    margin-left: 220px;
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* idk why i added it but it exists */
+.productSubDiv {
+    position: inherit;
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-top: 2.5px;
+    color:rgb(255, 255, 255);
+}
+/* css for the image in the data array */
+.productImageClass {
+    position: absolute;
+    margin-top: 30px;
+    height: 200px;
+    width: 150px;
+    border: 3px solid black;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+/* css related to the links */
+.linkClass{
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    text-decoration: none;
+    margin-left: 200px;
+    display: block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+.linkClass:active {
+    color: rgb(197, 197, 197);
+    text-decoration: none;
+}
+.linkClass:hover {
+    color: rgb(156, 156, 156);
+    text-decoration:underline;
+}
+.linkClass:visited {
+    color: rgb(148, 148, 148);
+}
+.linkClass:visited:hover {
+    color: rgb(255, 255, 255);
+}
+/* end */

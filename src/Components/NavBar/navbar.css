@@ -1,0 +1,22 @@
+/* for the primary navbar text */
+.amazen {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px;
+}
+
+/* for the link to my orders page */
+#myOrder {
+    margin-right: 0;
+    margin-left: 1052px;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* for the logout link */
+#logOut {
+    text-align: right;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
